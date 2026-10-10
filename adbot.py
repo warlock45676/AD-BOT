@@ -2720,8 +2720,8 @@ async def main():
         logger.error("ROOM_ID یا API_TOKEN تنظیم نشده‌اند.")
         return
     
-    logger.info(f"ROOM_ID: {room_id}")
-    logger.info(f"API_TOKEN: {api_token}")
+    logger.info(f"ROOM_ID: {6ac934c67d5bcb2001ccd8ec}")
+    logger.info(f"API_TOKEN: {6ac9fd975bb3eceee152ce3b}")
 
     # ساختار وب‌سرور داخلی و سبک پایتون
     class PingHandler(BaseHTTPRequestHandler):
