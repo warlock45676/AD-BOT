@@ -2714,14 +2714,14 @@ async def main():
     
     logger.info("تلاش برای بارگذاری متغیرهای محیطی...")
     room_id = os.getenv("ROOM_ID", "6ac934c67d5bcb2001ccd8ec")
-    api_token = os.getenv("API_TOKEN", "6ac9fd975bb3eceee152ce3b")
+    api_token = os.getenv("API_TOKEN", "6e7845cc5139168347f9d873b5c3187cd3d9f6d606dabc5dbc3b5317034976ed")
     
     if not room_id or not api_token:
         logger.error("ROOM_ID یا API_TOKEN تنظیم نشده‌اند.")
         return
     
     logger.info(f"ROOM_ID: {6ac934c67d5bcb2001ccd8ec}")
-    logger.info(f"API_TOKEN: {6ac9fd975bb3eceee152ce3b}")
+    logger.info(f"API_TOKEN: {6e7845cc5139168347f9d873b5c3187cd3d9f6d606dabc5dbc3b5317034976ed}")
 
     # ساختار وب‌سرور داخلی و سبک پایتون
     class PingHandler(BaseHTTPRequestHandler):
